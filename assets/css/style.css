@@ -251,7 +251,7 @@ h6 {
 }
 
 #hero::before {
-  content: "";
+  content: none;
   background: rgba(5, 13, 24, 0.2);
   position: absolute;
   bottom: 0;
@@ -259,8 +259,6 @@ h6 {
   left: 0;
   right: 0;
   z-index: 1;
-  scroll-padding-bottom: 300px;
-
 }
 
 #hero .hero-container {
