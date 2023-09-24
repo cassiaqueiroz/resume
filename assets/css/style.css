@@ -261,7 +261,6 @@ h6 {
 }
 
 #hero .hero-container {
-  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   z-index: 2;
