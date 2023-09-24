@@ -290,7 +290,13 @@ h6 {
   border-bottom: 3px solid #FFA07A;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 540px) {
   #hero {
     background-attachment: fixed;
   }
