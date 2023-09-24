@@ -261,7 +261,6 @@ h6 {
 }
 
 #hero .hero-container {
-  background-size: cover;
   position: relative;
   z-index: 2;
   min-width: 300px;
