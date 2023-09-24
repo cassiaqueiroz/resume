@@ -247,6 +247,8 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  background-attachment: fixed;
+
 }
 
 #hero::before {
@@ -288,13 +290,6 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #FFA07A;
-}
-
-@media (min-width: 540px) {
-  #hero {
-    background-attachment: fixed;
-    background-size: cover;
-  }
 }
 
 @media (max-width: 768px) {
