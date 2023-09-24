@@ -253,10 +253,10 @@ h6 {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
+  bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   z-index: 1;
 }
 
@@ -264,7 +264,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  height: 100%; /* Certifique-se de que o container ocupe toda a altura do #hero */
+  height: 100%; 
 }
 
 
