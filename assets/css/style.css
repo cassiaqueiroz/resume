@@ -298,19 +298,20 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 36px;
   }
 
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
   #hero p {
-    margin-bottom: 20px;
-    font-size: 23px;
+    margin-bottom: 50px;
+    font-size: 18px;
   }
-  
-  #hero .hero-container {
-    margin: 0;
-  }
-  
 }
 
 /*--------------------------------------------------------------
