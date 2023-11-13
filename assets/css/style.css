@@ -251,9 +251,16 @@ h6 {
   background-position: center top;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 280px) {
   #hero {
-    padding-bottom: 150px;
+    padding-left: 40px;
+    }
+ 
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    padding-bottom: 230px;
   }
 }
 
